@@ -17,6 +17,7 @@
 package guru.sfg.brewery.bootstrap;
 
 import guru.sfg.brewery.domain.*;
+import guru.sfg.brewery.domain.security.Authority;
 import guru.sfg.brewery.repositories.*;
 import guru.sfg.brewery.web.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
@@ -122,4 +123,5 @@ public class DefaultBreweryLoader implements CommandLineRunner {
 
         }
     }
+
 }
